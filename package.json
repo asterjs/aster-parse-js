@@ -9,8 +9,7 @@
     "aster-plugin",
     "ast",
     "javascript",
-    "transform",
-    "modify"
+    "parse"
   ],
   "main": "index.js",
   "scripts": {
