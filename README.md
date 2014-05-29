@@ -10,6 +10,22 @@ This is internal module and should be used as part of [aster-parse](https://npmj
 
 It uses [esprima](https://npmjs.org/package/esprima) to do it's job.
 
+## API
+
+### parseJS(options)
+
+#### options.loc
+Type: `Boolean`
+Default: `true`
+
+Location tracking (required for source maps).
+
+#### options.comments
+Type: `Boolean`
+Default: `false`
+
+Include comments to AST.
+
 ## License
 
 [MIT License](http://en.wikipedia.org/wiki/MIT_License)
