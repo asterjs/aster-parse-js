@@ -11,7 +11,13 @@ module.exports = function (options) {
 
 	return function (files) {
 		return files.map(function (file) {
-			return parse(file.contents, {loc: loc, source: file.path, attachComment: attachComment});
+			return {
+				type: 'File',
+				program: parse(file.contents, {loc: loc, source: file.path, attachComment: attachComment}),
+				loc: {
+					source: file.path
+				}
+			};
 		});
 	};
 };
