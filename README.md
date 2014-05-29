@@ -2,11 +2,13 @@
 [![NPM version][npm-image]][npm-url]
 [![Build Status][travis-image]][travis-url]
 
-> Parse js with aster.
+> JavaScript parser for aster.
 
 ## Usage
 
 This is internal module and should be used as part of [aster-parse](https://npmjs.org/package/aster-parse) or [aster-src](https://npmjs.org/package/aster-src).
+
+It uses [esprima](https://npmjs.org/package/esprima) to do it's job.
 
 ## License
 
