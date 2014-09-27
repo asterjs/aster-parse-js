@@ -1,6 +1,6 @@
 {
   "name": "aster-parse-js",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "JavaScript parser for aster.",
   "author": "Ingvar Stepanyan <me@rreverser.com> (https://github.com/RReverser)",
   "repository": "asterjs/aster-parse-js",
