@@ -1,6 +1,6 @@
 {
   "name": "aster-parse-js",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "JavaScript parser for aster.",
   "author": "Ingvar Stepanyan <me@rreverser.com> (https://github.com/RReverser)",
   "repository": "asterjs/aster-parse-js",
@@ -17,7 +17,7 @@
   },
   "dependencies": {
     "esprima": "^1.2.2",
-    "rx": "^2.2.24"
+    "rx": "^2.3.11"
   },
   "devDependencies": {
     "mocha": "*"
