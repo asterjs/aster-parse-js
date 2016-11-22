@@ -16,8 +16,8 @@
     "test": "mocha"
   },
   "dependencies": {
-    "esprima": "^1.2.2",
-    "rx": "^2.3.11"
+    "esprima": "jquery/esprima#master",
+    "rx": "^4.1.0"
   },
   "devDependencies": {
     "mocha": "*"
