@@ -39,9 +39,9 @@ escape-string-regexp@1.0.5:
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
 
-esprima@jquery/esprima#master:
-  version "4.0.0-dev"
-  resolved "https://codeload.github.com/jquery/esprima/tar.gz/31189be16589f4d889a5cc35ee10e10716650d4f"
+esprima@^3.1.0:
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/esprima/-/esprima-3.1.1.tgz#02dbcc5ac3ece81070377f99158ec742ab5dda06"
 
 fs.realpath@^1.0.0:
   version "1.0.0"
