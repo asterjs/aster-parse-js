@@ -26,6 +26,28 @@ Default: `false`
 
 Include comments to AST.
 
+#### options.parser
+
+Customized parser generator, by default:
+
+```js
+function defaultParser(options) {
+    return function (files) {
+        return files.map(function (file) {
+            return {
+                type: 'File',
+                program: parse(file.contents, {loc: options.loc, source: file.path, attachComment: options.attachComment}),
+                loc: {
+                    source: file.path
+                }
+            };
+        });
+    };
+}
+```
+
+You can f.ex change the `type: 'File'` if you are not parsing files.
+
 ## License
 
 [MIT License](http://en.wikipedia.org/wiki/MIT_License)
